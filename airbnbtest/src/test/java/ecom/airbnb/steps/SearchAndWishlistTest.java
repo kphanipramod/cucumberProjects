@@ -15,7 +15,7 @@ public class SearchAndWishlistTest extends BaseStep {
 	private WishlistPage wishList = new WishlistPage();
 
 	@Given("Goto airbnb website")
-	public void goto_flipkart_website() {
+	public void goto_airbnb_website() {
 		landingPage.openAirBnbWebSite();
 	}
 
