@@ -39,7 +39,7 @@ public class LandingPage extends AbstractPage {
 	}
 
 	public void openAirBnbWebSite() {
-		goToAndWait("https://www.airbnb.ca/");
+		goToAndWait("https://www.airbnb.com/");
 		additonalPageLoadWaits();
 		additonalPageLoadWaits();
 		additonalPageLoadWaits();
